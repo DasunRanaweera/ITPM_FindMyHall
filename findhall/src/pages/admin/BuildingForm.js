@@ -152,7 +152,7 @@ const BuildingForm = () => {
     pageContainer: {
       minHeight: "100vh",
       backgroundColor: "#f8fafc",
-      backgroundImage: 'url(https://www.sliit.lk/wp-content/uploads/2018/03/SLIIT-malabe.jpg)',
+      backgroundImage: 'url(https://www.sliit.lk/wp-content/uploads/2018/03/SLIIT-malabe.jpg)',//image back url
       backgroundSize: "cover",
       backgroundPosition: "center",
       backgroundAttachment: "fixed",
