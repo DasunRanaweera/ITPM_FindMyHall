@@ -4,7 +4,7 @@ import { NavLink, Link } from "react-router-dom";
 import jsPDF from 'jspdf';
 import autoTable from 'jspdf-autotable';
 import { FaFilePdf, FaEdit, FaTrash, FaPlus, FaSearch, FaTimes, FaBuilding, FaLayerGroup } from 'react-icons/fa';
-
+// start
 const BuildingForm = () => {
   const [buildings, setBuildings] = useState([]);
   const [filteredBuildings, setFilteredBuildings] = useState([]);
