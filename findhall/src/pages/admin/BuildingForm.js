@@ -58,7 +58,7 @@ const BuildingForm = () => {
     }
 
     if (editingId && originalFloors && floors < originalFloors) {
-      setError(`Cannot decrease number of floors below ${originalFloors} as there may be halls on higher floors.`);
+      setError(`Cannot decrease number of floors below ${originalFloors} as there may be halls on higher floors.`);//floor count update valid
       return;
     }
 
