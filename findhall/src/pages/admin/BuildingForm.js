@@ -48,7 +48,7 @@ const BuildingForm = () => {
 
     const nameRegex = /^[a-zA-Z\s]+$/;
     if (!nameRegex.test(name)) {
-      setError("Building name must contain only letters.");
+      setError("Building name must contain only letters.");  // validating the name of the building
       return;
     }
 
