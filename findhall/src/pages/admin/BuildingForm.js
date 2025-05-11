@@ -53,7 +53,7 @@ const BuildingForm = () => {
     }
 
     if (floors <= 0 || isNaN(floors)) {
-      setError("Number of floors must be a positive number.");
+      setError("Number of floors must be a positive number.");// floor count of a building should be greater than 0
       return;
     }
 
